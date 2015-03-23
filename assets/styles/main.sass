@@ -23,3 +23,24 @@ html, body
       display: inline-block
       margin: 5px
       float: none
+      
+.menu-button 
+  /* Firefox */
+  -moz-transform: rotate(0deg)
+  /* WebKit */
+  -webkit-transform: rotate(0deg)
+  /* Opera */
+  -o-transform: rotate(0deg)
+  /* Standard */
+  transform: rotate(0deg)
+  
+  transition: all 1s;
+.show-menu .menu-button
+  /* Firefox */
+  -moz-transform: rotate(360deg)
+  /* WebKit */
+  -webkit-transform: rotate(360deg)
+  /* Opera */
+  -o-transform: rotate(360deg)
+  /* Standard */
+  transform: rotate(360deg)
